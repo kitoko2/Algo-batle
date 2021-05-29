@@ -12,5 +12,5 @@ void main(List<String> arguments) {
   r = r.replaceAll(new RegExp(r'[^\w\s/]+'), '');
   r = r.replaceAll(new RegExp(r'^1'), '');
 
-  print('ton numero sont nettoyage est :$r');
+  print('numero  nettoyé  :$r');
 }
