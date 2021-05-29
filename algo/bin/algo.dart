@@ -11,8 +11,8 @@ void main(List<String> arguments) {
 
   r = r.replaceAll(new RegExp(r'[^\w\s/]+'), '');
   r = r.replaceAll(new RegExp(r'^1'), '');
-  r = r.replaceAll(
-      new RegExp(r' '), ''); // ajouter pour supprimer les espaces qui reste
+  r = r.replaceAll(new RegExp(r' '), '');
+  // ajouter pour supprimer les espaces qui reste
 
   print('numero  nettoyé  :$r');
 }
